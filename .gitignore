@@ -1,9 +1,21 @@
+# Python environment
 venv/
 __pycache__/
-uploads/
-data/
-*.zip
-*.jpg
-*.png
+
+# Node for frontend
+frontend/node_modules/
+
+# Dataset (exclude)
+data/raw/
+data/train/
+data/valid/
+data/test/
+
+# Model weights (tracked using LFS if needed)
 *.pt
-backend/models/*.pt
+
+# Temporary files
+*.zip
+
+# Cache folders
+runs/
