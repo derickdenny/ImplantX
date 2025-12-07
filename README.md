@@ -1,6 +1,7 @@
-⭐ 📌 ImplantX: YOLOv8-Powered Multi-Class Dental Implant Detection
+⭐ ImplantX: YOLOv8-Powered Multi-Class Dental Implant Detection
 
 ImplantX is an advanced deep learning system designed for automated detection and classification of dental implants from radiographic images. The model is built on the YOLOv8 architecture and is capable of identifying four implant systems — Adin, Dentium, Noris, and Osstem — with high reliability. This solution is intended to support dentists in post-operative assessment, treatment planning, and situations where clinical records are unavailable.
+
 
 🚀 Key Features
 
@@ -16,6 +17,7 @@ Confidence threshold optimization for clinically interpretable predictions
 
 Comprehensive evaluation using mAP, F1, precision–recall, and confusion matrix
 
+
 🧠 Tech Stack
 
 Deep Learning: YOLOv8 (Ultralytics)
@@ -28,19 +30,6 @@ Language: Python, JavaScript
 
 Deployment-ready for cloud or local execution
 
-📂 Project Structure
-ImplantX/
-│
-├── backend/
-│   ├── main.py
-│   ├── inference.py
-│   ├── models/ (YOLOv8 model via Git LFS)
-│
-├── frontend/
-│   └── (Lovable AI interface)
-│
-├── requirements.txt
-└── README.md
 
 🧪 Model Performance
 
@@ -52,16 +41,20 @@ Best Confidence Threshold: 0.44
 
 Class-wise AP: 0.844–0.937
 
+
 📦 Dataset
 
 The dataset includes annotated radiographs of four implant systems.
 
-🔗 Dataset Link: (Add your Drive/Roboflow link here)
-(Dataset is not included in this repository due to size constraints.)
+🔗 Dataset Link: (Dataset is not included in this repository due to size constraints.)
 
 ▶️ Running the Backend
 cd backend
 uvicorn backend.main:app --reload
+
+▶️ Running the Frontend
+cd frontend
+npm run dev
 
 
 Swagger UI:
@@ -76,6 +69,7 @@ Expansion to additional implant systems
 Enhanced transformer-based detection models
 
 Explainable AI visualization for clinical adoption
+
 
 👨‍🏫 Authors & Acknowledgments
 
